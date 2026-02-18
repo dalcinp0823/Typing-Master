@@ -1,6 +1,6 @@
 import random
 print("Welcome to Typing Master")
-print("------------------------")
+print("Good luck!")
 words = [
     "El Alfa", "Rochy RD", "Juan Soto", "Jeudry", "Computadora",
     "Flauta", "Arroz", "Bandera Dominicana", "Celular", "Facil",
@@ -31,4 +31,5 @@ print("Game Over")
 print("Mistakes:", mistakes)
 
 accuracy = (correct / total_words) * 100
-print("Accuracy:", round(accuracy, 2), "%")
+
+
