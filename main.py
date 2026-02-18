@@ -31,6 +31,7 @@ print("Game Over")
 print("Correct words:", correct)
 print("Mistakes:", mistakes)
 
-
+accuracy = (correct / total_words) * 100
+print("Accuracy:", round(accuracy, 2), "%")
 
 
