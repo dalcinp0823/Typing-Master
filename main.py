@@ -25,7 +25,7 @@ for word in words:
         mistakes += 1
 
     print("Progress:", correct + mistakes, "/", total_words)
-    print("----------------------")
+   
 
 print("Game Over")
 print("Correct words:", correct)
